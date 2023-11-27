@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BussinessLayer.Abstract
 {
-    public interface Testimonial:IGenericService<Testimonial>
+    public interface ITestimonialservice:IGenericService<Testimonial>
     {
 
     }
