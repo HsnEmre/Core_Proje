@@ -1,7 +1,6 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
 }
 
 <!DOCTYPE html>
@@ -25,7 +24,7 @@
     <!-- End layout styles -->
 </head>
 <body>
-    @* @await Component.InvokeAsync("FeatureStatistics") *@
+    @await Component.InvokeAsync("FeatureStatistics")
 
     <div class="row">
         <div class="col-md-4 grid-margin stretch-card">
@@ -53,7 +52,7 @@
                     </div>
                 </div>
             </div>
-   @*      </div>
+        </div>
         @await Component.InvokeAsync("Last5Projects")
     </div>
 
@@ -71,7 +70,7 @@
 
     </div>
     @await Component.InvokeAsync("VisitorMap")
-    <!-- main-panel ends --> *@
+    <!-- main-panel ends -->
     <!-- page-body-wrapper ends -->
     <!-- container-scroller -->
     <!-- plugins:js -->

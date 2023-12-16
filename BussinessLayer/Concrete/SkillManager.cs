@@ -40,7 +40,7 @@ namespace BussinessLayer.Concrete
 
         public void TUpdate(Skill item)
         {
-            throw new NotImplementedException();
+            _skillDal.Update(item);
         }
     }
 }
